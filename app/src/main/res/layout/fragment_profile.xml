@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/profileImg"
+            android:layout_width="301dp"
+            android:layout_height="139dp"
+            android:src="@drawable/avatar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.097" />
+
+        <TextView
+            android:id="@+id/userName1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UserName"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profileImg"
+            app:layout_constraintVertical_bias="0.054" />
+
+        <ProgressBar
+            android:id="@+id/progressbar_lv"
+            style="@android:style/Widget.Material.ProgressBar.Horizontal"
+            android:layout_width="155dp"
+            android:layout_height="56dp"
+            android:clickable="false"
+            android:progressTint="#E2BEE6"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userName1"
+            app:layout_constraintVertical_bias="0.226" />
+
+        <ProgressBar
+            android:id="@+id/progressbar_str"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="155dp"
+            android:layout_height="56dp"
+            android:progressTint="#E2BEE6"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userName1"
+            app:layout_constraintVertical_bias="0.36" />
+
+        <ProgressBar
+            android:id="@+id/progressbar_Intelligent"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="155dp"
+            android:layout_height="56dp"
+            android:progressTint="#E2BEE6"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userName1"
+            app:layout_constraintVertical_bias="0.494" />
+
+        <ProgressBar
+            android:id="@+id/progressbar_userAgility"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="155dp"
+            android:layout_height="56dp"
+            android:progressTint="#E2BEE6"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userName1"
+            app:layout_constraintVertical_bias="0.627" />
+
+        <TextView
+            android:id="@+id/userLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:text="Lv.0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userName1"
+            app:layout_constraintVertical_bias="0.241" />
+
+        <TextView
+            android:id="@+id/user_str"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:text="Lv.0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userName1"
+            app:layout_constraintVertical_bias="0.412" />
+
+        <TextView
+            android:id="@+id/user_int"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:text="Lv.0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userName1"
+            app:layout_constraintVertical_bias="0.535" />
+
+        <TextView
+            android:id="@+id/user_agi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:text="Lv.0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userName1"
+            app:layout_constraintVertical_bias="0.657" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:hint="click pic to change profile pic"
+            app:layout_constraintBottom_toTopOf="@+id/profileImg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

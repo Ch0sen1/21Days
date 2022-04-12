@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/page_today"
+        android:enabled="true"
+        android:icon="@drawable/today"
+        android:title="Today"/>
+    <item
+        android:id="@+id/page_all"
+        android:enabled="true"
+        android:icon="@drawable/all"
+        android:title="All"/>
+    <item
+        android:id="@+id/page_zoo"
+        android:enabled="true"
+        android:icon="@drawable/zoo"
+        android:title="Zoo"/>
+    <item
+        android:id="@+id/page_home"
+        android:enabled="true"
+        android:icon="@drawable/home"
+        android:title="Home"/>
+</menu>

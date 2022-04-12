@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/luren/AndroidStudioProjects/NUMAD21FA_TEAM21DAYPROJECT/app/src/main/res/layout/activity_login.xml" value="0.259375" />
+        <entry key="..\:/Users/luren/AndroidStudioProjects/NUMAD21FA_TEAM21DAYPROJECT/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/luren/AndroidStudioProjects/NUMAD21FA_TEAM21DAYPROJECT/app/src/main/res/layout/animal_card.xml" value="0.19722222222222222" />
+        <entry key="..\:/Users/luren/AndroidStudioProjects/NUMAD21FA_TEAM21DAYPROJECT/app/src/main/res/layout/fragment_all.xml" value="0.2453125" />
+        <entry key="..\:/Users/luren/AndroidStudioProjects/NUMAD21FA_TEAM21DAYPROJECT/app/src/main/res/layout/fragment_profile.xml" value="0.4" />
+        <entry key="..\:/Users/luren/AndroidStudioProjects/NUMAD21FA_TEAM21DAYPROJECT/app/src/main/res/layout/fragment_today.xml" value="0.259375" />
+        <entry key="..\:/Users/luren/AndroidStudioProjects/NUMAD21FA_TEAM21DAYPROJECT/app/src/main/res/layout/fragment_zoo.xml" value="0.14907407407407408" />
+        <entry key="..\:/Users/luren/AndroidStudioProjects/NUMAD21FA_TEAM21DAYPROJECT/app/src/main/res/layout/habit_card.xml" value="0.8" />
+        <entry key="..\:/Users/luren/AndroidStudioProjects/NUMAD21FA_TEAM21DAYPROJECT/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.259375" />
+        <entry key="..\:/Users/luren/AndroidStudioProjects/NUMAD21FA_TEAM21DAYPROJECT/app/src/main/res/menu/top_app_bar.xml" value="0.21510416666666668" />
+        <entry key="..\:/Users/luren/AndroidStudioProjects/NUMAD21FA_TEAM21DAYPROJECT/app/src/main/res/xml/file_paths.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/shape_2.xml" value="0.18125" />
+        <entry key="app/src/main/res/drawable/sign_point.xml" value="0.18125" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.11684782608695653" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/add_habit.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/animal_card.xml" value="0.17291666666666666" />
+        <entry key="app/src/main/res/layout/check_habit.xml" value="0.22327898550724637" />
+        <entry key="app/src/main/res/layout/fragment_all.xml" value="0.17291666666666666" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.17291666666666666" />
+        <entry key="app/src/main/res/layout/fragment_today.xml" value="0.17291666666666666" />
+        <entry key="app/src/main/res/layout/fragment_zoo.xml" value="0.17291666666666666" />
+        <entry key="app/src/main/res/layout/habit_card.xml" value="0.17291666666666666" />
+        <entry key="app/src/main/res/layout/item_habits.xml" value="0.12135416666666667" />
+        <entry key="app/src/main/res/layout/item_habits_today.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

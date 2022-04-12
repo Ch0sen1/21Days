@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "889661862570",
+    "project_id": "project-7c868",
+    "storage_bucket": "project-7c868.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889661862570:android:14be690238527e693916d3",
+        "android_client_info": {
+          "package_name": "edu.neu.madcourse.numad21fa_team21dayproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889661862570-f58fg64k4sjqhb842b9ho2cbc3oug14p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChzHdPIOeVmDO_LhwvEFRoAJu50AsMRWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889661862570-f58fg64k4sjqhb842b9ho2cbc3oug14p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
